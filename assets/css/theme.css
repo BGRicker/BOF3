@@ -706,6 +706,7 @@ a[href^=tel] {
 
 input[type="email"].form-control,
 input[type="text"].form-control,
+input[type="address"].form-control,
 textarea.form-control,
 select.form-control {
     font-size: 0.875rem !important;

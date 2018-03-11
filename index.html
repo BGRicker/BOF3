@@ -666,7 +666,7 @@
         <!--                                         <!&#45;&#45; Project &#45; Close This Page &#45;&#45;> -->
         <!--                                         <div class="row justify&#45;content&#45;center py&#45;4 text&#45;center"> -->
         <!--                                             <div class="col&#45;md&#45;10"> -->
-        <!--                                                 <a href="#" class="popup&#45;trigger&#45;close btn btn&#45;black btn&#45;shadow xs&#45;btn&#45;medium btn&#45;large m&#45;0">Close This Page</a> -->
+                                                        <!-- <a href="#" class="popup&#45;trigger&#45;close btn btn&#45;black btn&#45;shadow xs&#45;btn&#45;medium btn&#45;large m&#45;0">Close This Page</a> -->
         <!--                                             </div> -->
         <!--                                             <!&#45;&#45; //.col&#45;md&#45;10 &#45;&#45;> -->
         <!--                                         </div> -->
@@ -1256,38 +1256,45 @@
                                                         <div class="row justify-content-center pb-4 pb-md-5">
                                                             <div class="col-md-10">
                                                                 <h2 class="font-alt font-w-700 letter-spacing-2 m-0 mt-3 text-uppercase title-xs-extra-large title-sm-extra-large-3 title-extra-large-4">Scholarship Application</h2>
-                                                                <form method="POST" id="form-contact" class="mt-5" action="https://formspree.io/bgricker@gmail.com">
+                                                                <form method="POST" id="form-contact" action="https://formspree.io/bgricker@gmail.com">
                                                                   <div class="form-group">
-                                                                    <input type="text" placeholder="Name" name="name" class="font-alt form-control required" id="name">
+                                                                    <input type="text" placeholder="Name" name="name" class="font-alt form-control required">
                                                                   </div>
                                                                   <div class="form-group">
-                                                                    <input type="text" placeholder="Phone" name="phone" class="font-alt form-control required" id="phone">
+                                                                    <input type="text" placeholder="Phone" name="phone" class="font-alt form-control required">
                                                                   </div>
                                                                   <div class="form-group">
-                                                                    <input type="email" placeholder="Your email" name="email" class="font-alt form-control required" id="email">
+                                                                    <input type="email" placeholder="Your email" name="email" class="font-alt form-control required">
                                                                   </div>
                                                                   <div class="form-group">
-                                                                      <textarea name="address" class="font-alt form-control required" id="address" rows="3" placeholder="City, state, and country of residence" name="address"></textarea>
+                                                                    <textarea name="address" class="font-alt form-control required" rows="3" placeholder="City, state, and country of residence" name="address"></textarea>
                                                                   </div>
                                                                   <div class="form-group">
-                                                                    <textarea name="address" class="font-alt form-control required" id="training-address" rows="3" placeholder="Address of closest Certified Training Center" name="training center address"></textarea>
+                                                                    <textarea name="address" class="font-alt form-control required" rows="3" placeholder="Address of closest Certified Training Center" name="training center address"></textarea>
                                                                   </div>
                                                                   <div class="form-group">
-                                                                    <textarea type="text" placeholder="Goals and aspirations of the child" name="goals" rows="5" class="font-alt form-control required" id="goals"></textarea>
+                                                                    <textarea type="text" placeholder="Goals and aspirations of the child" name="goals" rows="5" class="font-alt form-control required"></textarea>
                                                                   </div>
                                                                   <div class="form-group">
-                                                                    <textarea type="text" placeholder="Detailed explanation of why the child should be considered" name="consideration" rows="5" class="font-alt form-control required" id="consideration"></textarea>
+                                                                    <textarea type="text" placeholder="Detailed explanation of why the child should be considered" name="consideration" rows="5" class="font-alt form-control required"></textarea>
                                                                   </div>
                                                                   <div class="form-group">
-                                                                    <textarea type="text" placeholder="1st Reference contact info" name="reference1" rows="3" class="font-alt form-control required" id="reference1"></textarea>
+                                                                    <textarea type="text" placeholder="1st Reference contact info" name="reference1" rows="3" class="font-alt form-control required"></textarea>
                                                                   </div>
                                                                   <div class="form-group">
-                                                                    <textarea type="text" placeholder="2nd Reference contact info" name="reference2" rows="3" class="font-alt form-control required" id="reference2"></textarea>
+                                                                    <textarea type="text" placeholder="2nd Reference contact info" name="reference2" rows="3" class="font-alt form-control required"></textarea>
                                                                   </div>
                                                                   <div class="form-group">
                                                                     <button type="submit"class="btn btn-shadow btn-base-color mt-4 text-uppercase" id="btn-form-contact">Send Message</button>
                                                                   </div>
                                                                 </form>
+                                                                <!-- 
+                                                                <form method="POST" action="http://formspree.io/YOUREMAILHERE">
+                                                                  <input type="email" name="email" placeholder="Your email">
+                                                                  <br>
+                                                                  <textarea name="message" placeholder="Your message"></textarea>
+                                                                  <button type="submit">Send</button>
+                                                                </form> -->
                                                             </div>
                                                           </form>
                                                             <!-- //.col-md-10 -->
@@ -1353,9 +1360,10 @@
                                     <div class="contact-card-block h-100 rounded w-100">
                                         <div class="d-table h-100 w-100">
                                             <div class="d-table-cell align-middle">
-                                                <p class="mb-0 mt-1 text-xs-medium text-sm-large
-                                                text-extra-large">E-mail: 
-                                                   <a href="mailto:brianortegafoundation@gmail.com" target="_top">brianortegafoundation@gmail.com</a>
+                                                <!-- <p class="mb&#45;0 mt&#45;1 text&#45;xs&#45;medium text&#45;sm&#45;large -->
+                                                <!-- text&#45;extra&#45;large">E&#45;mail:  -->
+                                                <!--    <a href="mailto:brianortegafoundation@gmail.com" target="_top">brianortegafoundation@gmail.com</a> -->
+                                            <a href="mailto:brianortegafoundation@gmail.com" class="page-scroll btn btn-base-color btn-shadow mt-1">Email</a>
                                             </div>
                                             <!-- //.d-table-cell -->
                                         </div>
@@ -1378,12 +1386,13 @@
                                                     <input type="hidden" name="hosted_button_id" value="EVFGMJYZJMXRQ">
                                                     <input type="image"
                                                     src="assets/images/paypal.jpg" alt="Paypal" class="img&#45;fluid rounded&#45;left"
-                                                    border="0" name="submit" alt="PayPal">
+                                                    border="0" name="submit">
                                                     <img alt="" border="0"
                                                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                                                     height="1">
                                                   </form>
-                                                </p>
+
+                                                  <a href="#benefits" class="page-scroll btn btn-base-color btn-shadow mt-1">Donate</a>
                                             </div>
                                             <!-- //.d-table-cell -->
                                         </div>
