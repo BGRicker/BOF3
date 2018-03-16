@@ -3012,3 +3012,7 @@ section {
         height: 100% !important;
     }
 }
+
+.fun {
+  padding: 1em 3em 1em 3em;
+}
